@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+<script>
+
+	var linebreak = "<br>";
+
+	function HelloNaam(aantal){
+
+			var naam = prompt ("Wat is uw naam?");
+			var leeftijd = prompt ("Wat is uw leeftijd");
+			var klaar = prompt ("vul stop in als u niet nog een keer de vragen wilt beantwoorden")
+
+		if(klaar != "stop"){
+			HelloNaam(1)
+		}
+
+		else{
+			document.write(naam);
+			document.write(linebreak);
+			document.write(leeftijd);
+
+		}
+	}
+
+	HelloNaam(1)
+</script>
+</html>
